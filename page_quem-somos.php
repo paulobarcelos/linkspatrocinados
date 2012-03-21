@@ -60,7 +60,7 @@
 					<?php if (!$case_featured){ ?>					
 					<li class="grid_2 <?php if($r_index==0){echo 'alpha ';} elseif ($r_index==$r_max){echo 'omega ';} ?>">
 						<a class="case-link" href="<?php the_permalink(); ?>" title="Case <?php the_title();?>">
-							<img src="<?php echo $case_image_media[0]; ?>" alt="Case <?php the_title();?>" width=100 height=75 />
+							<img src="<?php echo $case_image_media[0]; ?>" alt="Links Patrocinados <?php the_title();?>" width=100 height=75 />
 						</a>
 					</li>
 					<?php

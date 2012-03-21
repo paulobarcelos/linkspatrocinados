@@ -198,6 +198,11 @@ header #logo a{
 	background-image: url(../img/icon-phone-header.png);
 	background-repeat:no-repeat;
 }
+#address-header{
+	padding-left: 30px;
+	color: #eee;
+	margin-top: 10px;
+}
 #hibrido-header{
 	position: relative;
 	background-image: url(../img/base-hibrido-header.png);
@@ -206,7 +211,7 @@ header #logo a{
 	font-family: 'Amaranth', sans-serif;
 	margin-top: -186px;
 	z-index: 10;
-	color: #902e17;
+	color: #700a03;
 	text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.2);
 }
 #hibrido-header p{
@@ -245,7 +250,7 @@ header #logo a{
 #headlines .headline-list{
 	margin-top: 5.5em;
 }
-#headlines h1{
+#headlines h2{
 	font-family: 'Amaranth', sans-serif;
 	font-size: 4.5em;
 	color: #ffffff;
@@ -408,6 +413,11 @@ a.jshowoff-active{
 #main-content #sidebar ul.client-list li img{
 	margin: 0.3em;
 }
+#main-content #sidebar p.contact-info{
+	margin-top: 1em;
+	font-size: 1em;
+	padding: 1em;
+}
 #main-content a.blue-btn:hover{
 	background-color: #0a364a;
 }
@@ -433,6 +443,17 @@ a.jshowoff-active{
 	border-radius: 1em;
 	margin-top: 0.5em;
 	margin-right: 0.6em;
+}
+#main-content #show-table{
+	display: block;
+	width: auto;
+  background-color: #104963;
+  font-family: 'Amaranth', sans-serif;
+  padding: 2em;
+  text-decoration: none;
+  font-size: 1.6em;	
+	line-height: 1.3em;
+	color: #fff;
 }
 #main-content #price-table{
   border-collapse:collapse;
@@ -589,6 +610,12 @@ footer #logo a{
 	background-image: url(../img/icon-phone-footer.png);
 	background-repeat:no-repeat;
 }
+#address-footer{
+	padding-left: 25px;
+	color: #eee;
+	margin-top: 10px;
+	font-size: 11px;
+}
 #hibrido-footer{	
 	background-image: url(../img/base-hibrido-footer.png);
 	width:326px;
@@ -601,7 +628,7 @@ footer #logo a{
 }
 #hibrido-footer p{
 	padding-top: 1.2em;
-	color: #902e17;
+	color: #700a03;
 	text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.2);
 }
 #hibrido-footer .left-block{

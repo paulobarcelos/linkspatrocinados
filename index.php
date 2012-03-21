@@ -17,7 +17,7 @@
 							$headline_link_ID = get_page_by_title($headlines_links[$i])->ID;
 							$headline_link_URL = get_permalink($headline_link_ID);
 						?>
-						<h1><?php echo $headlines_titles[$i]; ?></h1>
+						<h2><?php echo $headlines_titles[$i]; ?></h2>
 						<p><?php echo $headlines_descriptions[$i]; ?> <a href="<?php echo $headline_link_URL;?>" class="red-btn">Saiba Mais</a></p>
 					</div>
 					<?php } ?>

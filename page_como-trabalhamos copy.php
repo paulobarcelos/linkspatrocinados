@@ -44,22 +44,7 @@
 									
 		</div>
 		<div id="sidebar" class="grid_5">
-			<?php
-					$quemSomosID = get_page_by_title('Quem Somos')->ID;
-					$quemSomosPermalink = get_permalink($quemSomosID);
-					$comoTrabalhamosID = get_page_by_title('Como Trabalhamos')->ID;
-					$comoTrabalhamosPermalink = get_permalink($comoTrabalhamosID);
-															
-					$contatoFields = simple_fields_get_post_group_values(get_page_by_title('Quem somos')->ID,"Contato", true, 1);
-					$websiteURL = $contatoFields["Website"][0];
-					$blogURL = $contatoFields["Blog"][0];
-					$phone = $contatoFields["Telefone"][0];
-					$address = $contatoFields["Endereço"][0];
-					$email = $contatoFields["Email"][0];
-					$adWords = $contatoFields["Certificado AdWords"][0];
-			?>
-			<a id="show-table" href="#" onClick="_gaq.push(['_trackEvent', 'Informacoes', 'Mostrar', 'Tabela de Preços']);">Ver tabela de preços</a>
-			<table id="price-table" class="price-table-class grid_5 alpha omega">
+			<table id="price-table" class="grid_5 alpha omega">
 				<thead>
 					<?php
 						$tabela_cabecalho_fields = simple_fields_get_post_group_values(get_the_ID(),"Tabela de Preços: Cabeçalho", true, 1);
@@ -89,7 +74,6 @@
 					<?php } ?>
 				</tbody>
 			</table>
-			<p class="contact-info">Entre em contato pelo <?php echo $phone;?>, envie um <a href="mailto:<?php echo $email;?>">email</a> ou nos faça uma visita.<br /><br /><?php echo $address;?></p>
 		</div><!-- END #sidebar -->
 	</div><div class="clear"></div>
 </div><!-- END #main-content -->
